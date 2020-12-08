@@ -1,0 +1,133 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    
+}
+
+.nav-wrapper{
+    padding-left: 20px;
+    margin-top: -60px;
+    font-size: 25px;
+    display: flex;
+    text-decoration-color: white;
+}
+.logo{
+    margin-top: 100px;
+    margin-left: 64px;
+}
+
+.content-wrapper{
+    text-align: left;
+    margin-left: 44px; 
+    margin-right: 20px;
+ 
+}
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.wrapper-a{
+    line-height: 20px;
+    font-stretch:extra-condensed;
+    font-size:2opx;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    height: auto;
+    text-justify: distribute;
+}
+.wrapper-b {
+    line-height: 20px;
+    font-stretch:extra-condensed;
+    font-size: 20px;
+    float: right;
+    text-justify: distribute;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    height: auto;
+
+}
+
+/*-----------footer stuff-----------*/
+.container-footer {
+    width: 100%;
+    background: #101010;
+    margin: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    padding-bottom: 0px;
+    display: flex;
+    
+    
+}
+
+.copyright {
+    color: #C7C7C7;
+    
+    padding: 20px;
+    display: flex;
+    width: 35px;
+    position: relative;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a {
+    text-decoration: none;
+    color: #C7C7C7;
+    
+
+    
+}
+
+/*this contains formattings for the list items in the footer and the imported social media icons*/
+.ul{
+    text-align: left;
+    padding:10px;
+    margin: 0;
+}
+
+.fa-instagram{
+    background:transparent;
+    color: white;
+}
+.fa-twitter{
+    background: transparent;
+    color: white;
+}
+
+
+
+.information {
+    position: relative;
+    
+    padding-left: 100px;
+    display: flex;
+    font-weight: normal;
+    position: relative;
+    float: right;
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-right: 190px;
+}
+
+
+
+
+
+
